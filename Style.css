@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+body{
+    background-color: #d1d5d5;
+}
+
+
+nav{
+    background: #172B2B;
+    height: 80px;
+    width: 100%;
+   display: flex;
+
+    
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+   
+
+    
+}
+nav ul{
+    float: right;
+    margin-right: auto;
+    width: auto;
+
+    
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+   
+   
+
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    width: 100%;
+   
+    
+
+}
+:active,a:hover{
+    background:#0e1a1a ;
+    
+    transition: 0.5s;
+}
+
+
+.introphoto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 300px;
+    background-image: url("https://images.lifestyleasia.com/wp-content/uploads/sites/7/2023/02/17204218/Black-coffee-for-weight-loss-1600x900.jpg?tr=w-1600");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+
+.video {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 300px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+.video video{
+    
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.introVideo .video video {
+    margin-top: 50px;
+    height: 600px;
+    width:  1200px;
+    object-fit: cover;
+    transition: 0.2s linear;
+    border-radius: 20px;
+    opacity: 0.9;
+    
+    
+    
+}
+
+.introVideo .video:hover video {
+    transform: scale(1.1);
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+
+
+
+
+
+.intro {
+    display: flex;
+    height: 88%;
+    align-items: center;
+    margin-bottom: 300px;
+    /* Center vertically */
+}
+
+.text{
+   flex-basis: 50%;
+   color:  #172B2B;
+}
+
+.intro .text p{
+    color:  #172B2B;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.intro .text h1{
+    color:  #172B2B;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    
+}
+.introimage {
+    margin-top: 100px;
+    height: 500px;
+    width: auto;
+    border-radius: 20px 0 0 20px;
+    float: right; 
+    transition: 0.2s linear; 
+    
+}
+
+.introimage img {
+    max-width: 100%;
+
+}
+.introimage:hover{
+    transform: scale(1.1);
+}
+
+.introphoto.para{
+    font-size: 30px;
+}
+
+
+
+/* Apply styles to the footer */
+.footer {
+    background-color: #172B2B;
+    color: #fff;
+    padding: 80px 15%;
+    height: 100px;
+    width: auto;
+    display: flex;
+    border-radius: 100px 100px 0 0;
+   
+  
+    
+}
+
+.footer div{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: -60px;
+}
+
+.col2{
+    flex-grow: 2;
+}
+
+.col3{
+    flex-grow: 2;
+}
+
+
+
+
+
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 10px;
+
+}
+
+.col1 a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+
+form button{
+    background:transparent ;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+form button:hover{
+    background: #fff;
+    color: #333;
+}
+
+.socialicons{
+    margin-top: 60px;
+  
+
+}
+
+.socialicons i{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.socialicons i:hover{
+    transform: scale(1.5);
+}
+
+
+.intropanal{
+    background-color: #172B2B;
+    height: 200px;
+    margin-top: -250px;
+    opacity: 0.9;
+
+}
+.intropanal .inttext{
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

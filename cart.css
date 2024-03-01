@@ -1,0 +1,57 @@
+nav{
+    background: #172B2B;
+    height: 80px;
+    width: 100%;
+   display: flex;
+
+    
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+   
+
+    
+}
+nav ul{
+    float: right;
+    margin-right: auto;
+    width: auto;
+
+    
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+   
+   
+
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    width: 100%;
+   
+    
+
+}
+:active,a:hover{
+    background:#0e1a1a ;
+    
+    transition: 0.5s;
+}
+
+
+.message {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+}

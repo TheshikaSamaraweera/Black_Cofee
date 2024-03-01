@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UFT-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Cofee Galary</title>
+
+        <!--font awsm cdn link-->
+        <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+        <!--coustm css file link-->
+        <link rel="stylesheet" href="D:\open mora\Final Project\glrycss.css">
+
+    </head>
+
+    <body>
+
+
+        <nav>
+            <label class="logo">desing</label>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="glry.html">Galary</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">feedback</a></li>
+                <li><a href="#">feedback</a></li>
+            </ul>
+           </nav>
+
+
+        <h1>--- COFFEE GALERY ---</h1>
+        <div class="container">
+            <div class="photogalary">
+                <div class="pic coffe1" id="c1">
+                    <img src="D:\open mora\Final Project\Photos\americano.jpg">
+                    <button class="buy-button" onclick="showNotification()">Buy Now</button>
+                </div>
+                    <div class="pic cofee2" id="c2">
+                    <img src="D:\open mora\Final Project\Photos\CAPPUCCINO-COFFEE.jpg">
+                    <button class="buy-button" onclick="showNotification()">Buy Now</button>
+                </div>
+                    <div class="pic coffe3" id="c3">
+                    <img src="D:\open mora\Final Project\Photos\coffee-1019x573.jpg">
+                    <button class="buy-button" onclick="showNotification()">Buy Now</button>
+                </div>
+
+                <div class="pic cofee4" id="c4">
+                    <img src="D:\open mora\Final Project\Photos\drink-coffee-cup-coffee-beans-wallpaper-preview.jpg">
+                    <button class="buy-button" onclick="showNotification()">Buy Now</button>
+                </div>
+                    <div class="pic cofee5" id="c5">
+                    <img src="D:\open mora\Final Project\Photos\espresso-shot.jpg">
+                    <button class="buy-button" onclick="showNotification()">Buy Now</button>
+                </div>
+                    <div class="pic cofee6" id="c6">
+                    <img src="D:\open mora\Final Project\Photos\flat white.jpg">
+                    <button class="buy-button" onclick="showNotification()">Buy Now</button>
+                </div>
+
+                <div class="pic cofee7">
+                    <img src="D:\open mora\Final Project\Photos\Long-Black.jpg">
+                    <button class="buy-button" onclick="showNotification()">Buy Now</button>
+                </div>
+                    <div class="pic cofee8">
+                    <img src="D:\open mora\Final Project\Photos\mocha.jpg">
+                    <button class="buy-button" onclick="showNotification()" >Buy Now</button>
+                </div>
+                    <div class="pic cofee9">
+                    <img src="D:\open mora\Final Project\Photos\turkish-coffee.jpg">
+                    <button class="buy-button" onclick="showNotification()">Buy Now</button>
+                    </div>
+
+            </div>
+        </div>
+        <div id="notification-popup" class="notification-popup">
+            <p id="notification-text">You ordered a coffee!</p>
+            <button id="close-button">OK</button>
+        </div>
+        
+        
+
+        <div class="cart">
+            <button> </button>
+
+        </div>
+
+        <script>
+            function showNotification() {
+                alert("You ordered a coffee!");
+            }
+
+            var notificationPopup = document.getElementById("notification-popup");
+var closeButton = document.getElementById("close-button");
+
+function showNotification() {
+    notificationPopup.classList.add("show");
+}
+
+closeButton.addEventListener("click", function() {
+    notificationPopup.classList.remove("show");
+});
+
+// Automatically hide the notification after 3 seconds
+setTimeout(function() {
+    notificationPopup.classList.remove("show");
+}, 3000);
+
+
+        </script>
+        
+        <script src="js/Script.js"></script>
+
+
+
+
+
+ 
+
+            
+    </body>
+</html>
